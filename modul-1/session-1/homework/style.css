@@ -86,7 +86,7 @@ input {
     font-size: 12px;
 }
 
-/* Responsive */
+/* Responsive Point */
 
 @media (max-width: 1000px) {
     .container {
