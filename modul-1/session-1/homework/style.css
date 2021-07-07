@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0f3e7;
+}
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.bar {
+    width: 45%; 
+}
+
+.bar.playlist {
+    padding: 80px 50px;
+}
+
+.bar.book {
+    padding: 50px;
+    background-color:  #F7B32B;
+    text-align: center;
+    border: 15px solid #c28720;
+    border-radius: 40px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0 20px 0;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #37b249;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.book-image {
+    width: 50%;
+    box-shadow: 0 20px 50px rgba(75, 50, 6, 0.7);
+    margin-bottom: 20px;
+}
+
+.bar.book p {
+    margin-bottom: 5px;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 12px;
+}
+
+.book-album {
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+    .container {
+        display: block;
+    }
+
+    .bar {
+        width: 100%;
+    }
+}
