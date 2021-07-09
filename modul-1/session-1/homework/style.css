@@ -45,10 +45,12 @@ label {
 
 input {
     width: 400px;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 15px;
     border: none;
     margin: 5px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 .btn {
