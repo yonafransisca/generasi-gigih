@@ -1,13 +1,12 @@
 import './App.css';
 import Search from './components/search/index';
-import Gif from './components/gif/index';
-import gifData from './data/gifData';
+import Gif from './components/gif/index'
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Search />
-      <Gif url={gifData.url} />
+      <Gif />
     </div>
   );
 }
