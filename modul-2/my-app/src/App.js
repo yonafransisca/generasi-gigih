@@ -1,12 +1,10 @@
 import './App.css';
-import Search from './components/search/index';
-import Gif from './components/gif/index'
+import Search from './pages/search/index';
 
 function App() {
   return (
     <div className="App">
       <Search />
-      <Gif />
     </div>
   );
 }
