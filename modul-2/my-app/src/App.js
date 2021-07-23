@@ -1,10 +1,10 @@
 import './App.css';
-import Search from './pages/search/index';
+import SearchGif from './pages/searchGif/index';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Search />
+      <SearchGif/>
     </div>
   );
 }

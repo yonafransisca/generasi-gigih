@@ -1,11 +1,7 @@
-// const Gif = (props) => { 
-//     return <img src={props.url} alt={props.title} />; 
-//   };
-
 import gifData from '../../data/gifData'
 import './Gif.css'
 
-function Gif() {
+const Gif = () => {
   return (
     <div>
       <ul>
