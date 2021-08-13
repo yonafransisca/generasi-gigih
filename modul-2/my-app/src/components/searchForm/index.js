@@ -1,23 +1,28 @@
 import './searchForm.css';
+import { Button } from '@material-ui/core';
+import { TextField } from '@material-ui/core';
+
 
 const SearchForm = ({query, handleChange, handleSubmit}) => {
     return (
         <form onSubmit={handleSubmit}>
             <label htmlFor="search"></label>
-            <input 
+            <TextField 
                 id="search"
                 type="text" 
                 value={query}
                 onChange={handleChange}
-                className="search-bar"
+                margin="dense"
             />
-            <button
-                className="btn"
+            <Button
+                variant="contained" 
+                color="primary"
+                
                 value="Search"
                 type="submit"
             >
                Search 
-            </button>
+            </Button>
         </form>
     )
 }
